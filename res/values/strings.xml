@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MyFirstAppActivity!</string>
+    <string name="app_name">MyFirstApp</string>
+    <string name="first_app_title">This is my first android app</string>
+    <string name="edit_text_hint">Enter your data here</string>
+    <string name="enter_data_button_text">Click Me</string>
+    <color name="title_text_color">#900</color>
+    <color name="receive_data_background_color">#000</color>
+    <color name="send_data_title_color">#ccc</color>
+    <color name="receive_data_textbox_color">#fff</color>
+    <string name="receive_data_title">Receive Data</string>
+    
+
+</resources>
