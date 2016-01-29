@@ -32,5 +32,5 @@
     <string name="background_color">Background Color</string>
     <string name="save">Save</string>
     <string name="review_list">Review List</string>
-	
+	<string name="time">Time</string>
 </resources>
