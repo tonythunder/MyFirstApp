@@ -4,17 +4,18 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <Toolbar
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:title="@string/oscar_reviews"
+        android:layout_height="wrap_content"
         android:background="@color/primary"
-        android:layout_height="wrap_content" />
+        android:title="@string/oscar_reviews" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:padding="16dp" >
 
         <TextView
             android:layout_width="wrap_content"
@@ -54,11 +55,30 @@
             android:layout_height="wrap_content"
             android:text="@string/category" />
 
-        <EditText
-            android:id="@+id/edit_text_category"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/category" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radio_picture"
+                android:text="@string/best_picture" />
+
+            <RadioButton
+                android:id="@+id/radio_actor"
+                android:text="@string/best_actor" />
+
+            <RadioButton
+                android:id="@+id/radio_actress"
+                android:text="@string/best_actress" />
+
+            <RadioButton
+                android:id="@+id/radio_editing"
+                android:text="@string/film_editing" />
+
+            <RadioButton
+                android:id="@+id/radio_effects"
+                android:text="@string/visual_effects" />
+        </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
@@ -71,13 +91,12 @@
             android:layout_height="wrap_content"
             android:hint="@string/password"
             android:inputType="textPassword" />
-        
-        <Button 
+
+        <Button
+            android:id="@+id/button_send_data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/submit"
-            android:id="@+id/buttons_send_data"
-            />
+            android:text="@string/submit" />
     </LinearLayout>
 
 </LinearLayout>

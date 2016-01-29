@@ -6,10 +6,12 @@
     <string name="first_app_title">This is my first android app</string>
     <string name="edit_text_hint">Enter your data here</string>
     <string name="enter_data_button_text">Click Me</string>
+
     <color name="title_text_color">#900</color>
     <color name="receive_data_background_color">#000</color>
     <color name="send_data_title_color">#ccc</color>
     <color name="receive_data_textbox_color">#fff</color>
+
     <string name="receive_data_title">Receive Data</string>
     <string name="password">Password</string>
     <string name="review">Review</string>
@@ -18,5 +20,17 @@
     <string name="category">Category</string>
     <string name="oscar_reviews">Oscar Reviews</string>
     <string name="submit">Submit</string>
-
+    <string name="best_picture">Best Picture</string>
+    <string name="best_actor">Best Actor</string>
+    <string name="best_actress">Best Actress</string>
+    <string name="film_editing">Film Editing</string>
+    <string name="visual_effects">Visual Effects</string>
+    <string name="preferences">Preferences</string>
+    <string name="view_reviews">View Reviews</string>
+    <string name="url">URL</string>
+    <string name="login_name">Login name</string>
+    <string name="background_color">Background Color</string>
+    <string name="save">Save</string>
+    <string name="review_list">Review List</string>
+	
 </resources>
