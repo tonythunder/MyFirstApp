@@ -24,7 +24,7 @@ public class MyFirstAppActivity extends Activity implements OnClickListener
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		EditText textBox = (EditText)findViewById(R.id.text_view_data);
+		EditText textBox = (EditText)findViewById(R.id.edit_text_review);
 		String data = textBox.getText().toString();
 		
 		Intent intent = new Intent(this, ReceiveDataActivity.class);

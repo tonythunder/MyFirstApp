@@ -4,29 +4,80 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textColor="@color/title_text_color"
-        android:textSize="25dp"
-        android:text="@string/hello" />
-    <EditText
-        android:background="#CCFFFFFF"
-        android:layout_height="fill_parent"
-        android:layout_width="fill_parent"
-        android:hint="@string/edit_text_hint"
-        android:layout_margin="5dp"
-        android:layout_weight="1"
-        android:id="@+id/text_view_data" />
-    
-    <Button 
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:textSize="15dp"
-        android:layout_margin="5dp"
-        android:text="@string/enter_data_button_text"
-        android:id="@+id/buttons_send_data"/>
-    
+    <Toolbar
+        android:layout_width="match_parent"
+        android:title="@string/oscar_reviews"
+        android:background="@color/primary"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/review" />
+
+        <EditText
+            android:id="@+id/edit_text_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/review" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reviewer" />
+
+        <EditText
+            android:id="@+id/edit_text_reviewer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/reviewer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nominee" />
+
+        <EditText
+            android:id="@+id/edit_text_nominee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nominee" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category" />
+
+        <EditText
+            android:id="@+id/edit_text_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/category" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password" />
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:id="@+id/buttons_send_data"
+            />
+    </LinearLayout>
 
 </LinearLayout>

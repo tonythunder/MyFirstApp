@@ -11,6 +11,12 @@
     <color name="send_data_title_color">#ccc</color>
     <color name="receive_data_textbox_color">#fff</color>
     <string name="receive_data_title">Receive Data</string>
-    
+    <string name="password">Password</string>
+    <string name="review">Review</string>
+    <string name="reviewer">Reviewer</string>
+    <string name="nominee">Nominee</string>
+    <string name="category">Category</string>
+    <string name="oscar_reviews">Oscar Reviews</string>
+    <string name="submit">Submit</string>
 
 </resources>
